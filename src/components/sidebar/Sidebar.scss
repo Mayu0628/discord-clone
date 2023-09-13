@@ -1,8 +1,7 @@
 .sidebar {
   display: flex;
-  flex: 0.35;
+  flex: 0.3;
   height: 100vh;
-  background-color: #303338; //TODO: change to App.css
 
   .sidebarLeft {
     display: flex;
@@ -32,6 +31,7 @@
     background-color: #2a2d31;
     width: 300px;
     position: relative;
+    flex-grow: 1;
 
     .sidebarTop {
       color: #fff;
